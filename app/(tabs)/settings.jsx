@@ -18,7 +18,7 @@ export default function TabTwoScreen() {
         <IconSymbol
           size={310}
           color="#80808"
-          name="settings.fill"
+          name="gear"
           style={styles.headerImage}
         />
       }>
