@@ -1,4 +1,7 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+// import Geolocation from 'react-native-geolocation-service';
+// import { request, PERMISSIONS, RESULTS } from 'react-native-permissions';
+// import { useEffect } from 'react';
 
 export default function Home() {
   return (
