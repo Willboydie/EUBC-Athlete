@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "EUBC-Athlete",
-    "slug": "EUBC-Athlete",
+    "name": "EUBC Athlete",
+    "slug": "EUBC Athlete",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/rowing.png",
+    "icon": "./assets/images/rowing2.png",
     "scheme": "eubcathlete",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,11 +13,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/rowing.png",
+        "foregroundImage": "./assets/images/rowing2.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.EUBCAthlete"
+      "package": "com.anonymous.EUBCAthlete",
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
@@ -29,7 +30,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/rowing2.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -45,6 +46,6 @@
         "projectId": "17a7e303-d949-4763-aa40-7c305d2f8932"
       }
     },
-    "owner": "EUBC"
+    "owner": "eubc"
   }
 }
