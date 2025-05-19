@@ -38,10 +38,7 @@ const styles = StyleSheet.create({
     color: '#1E3A8A',
     marginBottom: 40,
   },
-  buttonContainer: {
-    flexDirection: 'row',
-    gap: 20,
-  },
+
   startButton: {
     backgroundColor: 'green',
     paddingVertical: 56,
@@ -74,7 +71,52 @@ const styles = StyleSheet.create({
   color: '#1E3A8A',
   fontWeight: '500',
   marginTop: 40,
+},
+timerContainer: {
+  alignItems: 'center',
+  marginVertical: 40,
+},
+timerText: {
+  fontSize: 60,
+  fontWeight: 'bold',
+  color: '#000',
+},
+
+buttonContainer: {
+  flexDirection: 'column',  // was 'col' which isn't a valid value
+  alignItems: 'center',
+  gap: 20,
+},
+
+finishButtonSlot: {
+  height: 80, // enough to reserve space for the Finish button
+  justifyContent: 'center',
+  alignItems: 'center',
+},
+
+finishButton: {
+  flexDirection: 'row',
+  backgroundColor: '#FFFFFF',
+  paddingVertical: 12,
+  paddingHorizontal: 24,
+  borderRadius: 12,
+  alignItems: 'center',
+  shadowColor: '#000',
+  shadowOpacity: 0.1,
+  shadowOffset: { width: 0, height: 2 },
+  shadowRadius: 4,
+  elevation: 2,
+  borderWidth: 2,
+  borderColor: '#000',
+},
+
+finishButtonText: {
+  fontSize: 20,
+  fontWeight: '600',
+  color: '#000',
+  marginLeft: 8,
 }
+
 });
 
 export default styles;
