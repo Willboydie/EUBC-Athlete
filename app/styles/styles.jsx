@@ -49,6 +49,8 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 4,
     elevation: 2,
+    marginTop: 60,
+    marginBottom: 20
   },
   stopButton: {
     backgroundColor: '#EF4444',
@@ -60,6 +62,8 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 4,
     elevation: 2,
+    marginTop: 60,
+    marginBottom: 20
   },
   buttonText: {
     color: '#FFFFFF',
@@ -74,7 +78,7 @@ const styles = StyleSheet.create({
 },
 timerContainer: {
   alignItems: 'center',
-  marginVertical: 40,
+  marginVertical: 20,
 },
 timerText: {
   fontSize: 60,
@@ -115,7 +119,44 @@ finishButtonText: {
   fontWeight: '600',
   color: '#000',
   marginLeft: 8,
-}
+},
+
+metricsContainer: {
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  justifyContent: 'space-between',
+  marginTop: 10,
+  width: '100%',
+  paddingHorizontal: 20,
+},
+
+metricBox: {
+  width: '45%',
+  backgroundColor: '#F3F4F6',
+  paddingVertical: 20,
+  paddingHorizontal: 10,
+  borderRadius: 12,
+  alignItems: 'center',
+  marginVertical: 8,
+  shadowColor: '#000',
+  shadowOpacity: 0.05,
+  shadowOffset: { width: 0, height: 2 },
+  shadowRadius: 4,
+  elevation: 2,
+},
+
+metricLabel: {
+  fontSize: 16,
+  color: '#6B7280',
+  fontWeight: '500',
+  marginBottom: 4,
+},
+
+metricValue: {
+  fontSize: 24,
+  fontWeight: '600',
+  color: '#1E3A8A',
+},
 
 });
 
