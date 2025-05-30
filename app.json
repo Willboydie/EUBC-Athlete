@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "EUBC Athlete",
-    "slug": "EUBC Athlete",
+    "name": "EUBC-Athlete",
+    "slug": "EUBC-Athlete",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/rowing2.png",
@@ -17,8 +17,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.EUBCAthlete",
-      "versionCode": 1
+      "package": "com.EUBCAthlete"
     },
     "web": {
       "bundler": "metro",
